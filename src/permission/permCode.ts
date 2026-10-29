@@ -78,6 +78,10 @@ const _permissions = [
   'tool:storage:list',
   'tool:storage:delete',
   'upload:upload',
+  // 风电施工现场管理（nest-admin mobile 模块）
+  'mobile:project',
+  'mobile:ledger',
+  'mobile:review',
 ] as const;
 
 export type PermissionType = (typeof _permissions)[number];
